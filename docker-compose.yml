@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: sehrawatprashant/dennis-django-todo-through-jenkins-pipeline:latest
+    ports:
+      - "8001:8001"
